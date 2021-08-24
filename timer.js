@@ -40,9 +40,9 @@ class CountdownTimer {
         }, 1000);
     }
 
-    stop() {
-        clearInterval(this.intervalId)
-    }
+    // stop() {
+    //     clearInterval(this.intervalId)
+    // }
 }
 
 const timer = new CountdownTimer({
